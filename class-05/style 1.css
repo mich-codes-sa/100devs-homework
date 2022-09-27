@@ -1,0 +1,27 @@
+header{
+    background-color: blue;
+    margin-bottom:0%;
+}
+footer{
+    background-color: aqua;
+}
+section{
+    margin:0%;
+    background-color:blueviolet;
+    width:33.3333%;
+    float:left;
+}
+section + section{
+    background-color: violet;
+}
+section + section + section{
+    background-color: turquoise;
+}
+div{
+    background-color:silver;
+    width:50%;
+    float:left;
+}
+div+div{
+    background-color: gold;
+}

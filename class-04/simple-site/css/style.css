@@ -1,0 +1,54 @@
+body {
+    background-color: #87caea;
+    border: 5px solid lightgreen;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    position:float;
+}
+
+nav{
+    text-align: center;
+}
+
+h1{
+    color:white;
+    /* align-position: center; */
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+
+header h1 {
+    font-style: italic;
+}
+
+ul {
+    list-style-type: none;
+    margin: 5;
+    padding: 5;
+    overflow: hidden;
+}
+
+li{
+    display:inline;
+}
+
+main{
+    position:relative;
+    margin:5%;
+}
+
+img {
+    position:absolute;
+    top:0px;
+    right:0px;
+    max-width: 40%;
+}
+
+p {
+    color:white;
+    width: 60%;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    overflow-wrap: normal;
+}
+
+a {
+    color: lightgreen;
+}

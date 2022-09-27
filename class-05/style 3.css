@@ -1,0 +1,38 @@
+header {
+    background-color: blue;
+    margin-bottom: 0%;
+    height: 50px;
+}
+
+footer {
+    height: 50px;
+    background-color: aqua;
+    width: 100%;
+}
+
+section {
+    height: 100px;
+    margin: 0%;
+    background-color: blueviolet;
+    width: 20%;
+    float: left;
+}
+
+section:nth-child(3) {
+    width: 40%;
+    background-color: violet;
+}
+
+section+section+section {
+    background-color: turquoise;
+}
+
+section+section+section+section {
+    background-color: purple;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }

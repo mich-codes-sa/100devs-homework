@@ -1,0 +1,25 @@
+header{
+    background-color: blue;
+    margin-bottom:0%;
+}
+footer{
+    background-color: aqua;
+}
+section{
+    margin:0%;
+    background-color:blueviolet;
+    width: 20%;
+    float:left;
+}
+section + section{
+    background-color: violet;
+}
+section + section + section{
+    background-color: turquoise;
+}
+section + section + section + section{
+    background-color: firebrick;
+}
+#special{
+    width:40%;
+}
